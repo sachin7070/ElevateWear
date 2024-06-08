@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="ElevateWear.css">
+    <title>Sign Up</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .signup-container{
+        text-align: center;
+        padding: 100px;
+        
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+      }
+
+      form {
+        margin: 0 auto;
+        max-width: 300px;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <section class="signup-section">
+      <!-- Sign-up form here -->
+      <div class="signup-container">
+          <h2>Create an Account</h2>
+          <form id="signup-form">
+              <label for="name" >Full Name:</label>
+              <input type="text" id="name" name="name" required><br>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required><br>
+              
+              <button type="submit">Sign Up</button>
+          </form>
+          <form action="Account.html" method="post">
+            <input type="submit" value="Sign in" style="color:white; background-color: black;">
+          </form>
+      </div>
+      
+  </section>
+  </body>
+</html>
